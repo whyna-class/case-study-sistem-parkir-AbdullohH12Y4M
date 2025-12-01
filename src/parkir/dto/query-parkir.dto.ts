@@ -4,11 +4,11 @@ import { Type } from 'class-transformer';
 export class paginationParkirDto {
   @IsOptional()
   @IsString()
-  plat_nomor?: string;
+  platNomor?: string;
 
   @IsOptional()
   @IsString()
-  jenis_kendaraan?: string;
+  jenisKendaraan?: string;
 
   @IsOptional()
   @Type(() => Number)

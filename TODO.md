@@ -1,5 +1,10 @@
-# TODO: Replace TypeORM with Prisma
+# TODO List for Project Review and Updates
 
-- [x] Update parkir.module.ts to import PrismaModule
-- [x] Update parkir.entity.ts to export Prisma Parkir type
-- [ ] Implement parkir.service.ts with Prisma CRUD operations
+## Code Fixes
+- [ ] Fix empty try-catch blocks in parkir.service.ts create method
+- [ ] Fix jenisKendaraan validation in create-parkir.dto.ts to match schema enum
+- [ ] Fix and uncomment parkir.entity.ts
+- [ ] Update main.ts console log to list only actual endpoints
+
+## Documentation
+- [ ] Update README.md with endpoint explanations and Postman examples
